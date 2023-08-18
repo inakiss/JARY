@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.h1 {
+    grid-template-columns: max-content;
+
+}
+
+.contenedor {
+
+    background-color: rgba(41, 149, 1, 0.923);
+}
+
+.div> p {
+    display: flex;
+    gap: 1rem;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 480xp) {
+
+
+    .contenedor {
+        background-color: aqua;
+
+
+        grid-template-columns: 1rf;
+        grid-template-rows: repeat(2-1fr);
+        grid-template-areas:
+    }
+
+}
